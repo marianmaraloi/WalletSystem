@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|c:\\users\\marian.maraloi\\desktop\\logifuture\\walletsystemclient\\walletsystemclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|solutionrelative:walletsystemclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|c:\\users\\marian.maraloi\\desktop\\logifuture\\walletsystemclient\\walletsystemclient\\protocol\\requests\\addbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|solutionrelative:walletsystemclient\\protocol\\requests\\addbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|c:\\users\\marian.maraloi\\desktop\\logifuture\\walletsystemclient\\walletsystemclient\\protocol\\requests\\createwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|solutionrelative:walletsystemclient\\protocol\\requests\\createwalletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|c:\\users\\marian.maraloi\\desktop\\logifuture\\walletsystemclient\\walletsystemclient\\protocol\\requests\\deductbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|solutionrelative:walletsystemclient\\protocol\\requests\\deductbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|c:\\users\\marian.maraloi\\desktop\\logifuture\\walletsystemclient\\walletsystemclient\\protocol\\requests\\getbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C06E6-1675-4ED6-AE3D-CF91B1F34535}|WalletSystemClient\\WalletSystemClient.csproj|solutionrelative:walletsystemclient\\protocol\\requests\\getbalancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 349,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetBalanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\GetBalanceRequest.cs",
+              "RelativeDocumentMoniker": "WalletSystemClient\\Protocol\\Requests\\GetBalanceRequest.cs",
+              "ToolTip": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\GetBalanceRequest.cs",
+              "RelativeToolTip": "WalletSystemClient\\Protocol\\Requests\\GetBalanceRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:43:06.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeductBalanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\DeductBalanceRequest.cs",
+              "RelativeDocumentMoniker": "WalletSystemClient\\Protocol\\Requests\\DeductBalanceRequest.cs",
+              "ToolTip": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\DeductBalanceRequest.cs",
+              "RelativeToolTip": "WalletSystemClient\\Protocol\\Requests\\DeductBalanceRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:42:50.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateWalletRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\CreateWalletRequest.cs",
+              "RelativeDocumentMoniker": "WalletSystemClient\\Protocol\\Requests\\CreateWalletRequest.cs",
+              "ToolTip": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\CreateWalletRequest.cs",
+              "RelativeToolTip": "WalletSystemClient\\Protocol\\Requests\\CreateWalletRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:42:33.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBalanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\AddBalanceRequest.cs",
+              "RelativeDocumentMoniker": "WalletSystemClient\\Protocol\\Requests\\AddBalanceRequest.cs",
+              "ToolTip": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Protocol\\Requests\\AddBalanceRequest.cs",
+              "RelativeToolTip": "WalletSystemClient\\Protocol\\Requests\\AddBalanceRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:42:24.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Program.cs",
+              "RelativeDocumentMoniker": "WalletSystemClient\\Program.cs",
+              "ToolTip": "C:\\Users\\marian.maraloi\\Desktop\\Logifuture\\WalletSystemClient\\WalletSystemClient\\Program.cs",
+              "RelativeToolTip": "WalletSystemClient\\Program.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAGYAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:15:46.832Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 373,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
