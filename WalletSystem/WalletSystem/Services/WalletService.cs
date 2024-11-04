@@ -48,6 +48,18 @@ namespace WalletSystem.Services
                 throw new InvalidOperationException("Idempotency-Key is required for this operation.");
             }
 
+            if (request.Amount <= 0)
+            {
+                _logger.LogError("Invalid amount for AddBalance: {Amount}. Amount must be greater than zero.", request.Amount);
+                throw new InvalidOperationException("Amount must be greater than zero.");
+            }
+
+            if (await _redisDb.StringGetAsync(request.IdempotencyKey) == "processed")
+            {
+                _logger.LogWarning("Duplicate transaction detected for IdempotencyKey {IdempotencyKey}", request.IdempotencyKey);
+                throw new InvalidOperationException("Duplicate transaction request detected.");
+            }
+
             const int maxRetries = 3;
             int retries = 0;
 
@@ -80,6 +92,8 @@ namespace WalletSystem.Services
 
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
+
+                    await _redisDb.StringSetAsync(request.IdempotencyKey, "processed", TimeSpan.FromMinutes(5));
 
                     _logger.LogInformation("Balance added successfully for PlayerId {PlayerId}. New Balance: {Balance}", request.PlayerId, wallet.Balance);
                     break;
@@ -116,6 +130,18 @@ namespace WalletSystem.Services
             {
                 _logger.LogError("Idempotency-Key is required for DeductBalance requests.");
                 throw new InvalidOperationException("Idempotency-Key is required for this operation.");
+            }
+
+            if (request.Amount <= 0)
+            {
+                _logger.LogError("Invalid amount for DeductBalance: {Amount}. Amount must be greater than zero.", request.Amount);
+                throw new InvalidOperationException("Amount must be greater than zero.");
+            }
+
+            if (await _redisDb.StringGetAsync(request.IdempotencyKey) == "processed")
+            {
+                _logger.LogWarning("Duplicate transaction detected for IdempotencyKey {IdempotencyKey}", request.IdempotencyKey);
+                throw new InvalidOperationException("Duplicate transaction request detected.");
             }
 
             const int maxRetries = 3;
@@ -157,6 +183,8 @@ namespace WalletSystem.Services
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
 
+                    await _redisDb.StringSetAsync(request.IdempotencyKey, "processed", TimeSpan.FromMinutes(5));
+
                     _logger.LogInformation("Balance deducted successfully for PlayerId {PlayerId}. New Balance: {Balance}", request.PlayerId, wallet.Balance);
                     break;
                 }
@@ -185,6 +213,7 @@ namespace WalletSystem.Services
                 }
             }
         }
+
 
         public async Task<decimal> GetBalanceAsync(GetBalanceRequest request)
         {
